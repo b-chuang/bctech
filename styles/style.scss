@@ -1,0 +1,36 @@
+@import "partials/_setup";
+@import "partials/_utils";
+@import "partials/_typography";
+
+
+
+.flexContainer {
+    display: flex;
+}
+
+.flexItem {
+    flex-direction: row;
+    height: 100vh;   
+}
+
+.flexItemFixed {
+    width:27%;
+    position: relative;
+}
+
+.flexItemContent {
+    padding: 20px;
+    width: 85%;
+}
+
+.navBar {
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    width:24%;
+}
+
+
+
+
+
